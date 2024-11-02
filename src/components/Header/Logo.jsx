@@ -1,9 +1,9 @@
-import Img from "../../assets/logo.svg";
+import LogoImg from "../../assets/logo.svg";
 export default function Logo() {
   return (
     <>
       <a href="./index.html">
-        <img className="h-9" src={Img} alt="Weather App" />
+        <img className="h-9" src={LogoImg} alt="Weather App" />
       </a>
     </>
   );
